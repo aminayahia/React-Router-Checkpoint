@@ -27,7 +27,7 @@ function App() {
         <Container maxWidth="md">
   
           <Route exact path="/" ><MoviesList  mv={data}/></Route>
-          <Route path="/description" component={MovieDescription} />
+          <Route path="/description/:id" component={MovieDescription} />
           
         </Container>
 

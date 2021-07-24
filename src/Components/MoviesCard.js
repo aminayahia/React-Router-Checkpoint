@@ -73,7 +73,7 @@ export const MoviesCard = (mv) => {
                     <IconButton aria-label="add to favorites">
                     <FavoriteIcon />
                     </IconButton>
-                    <Link to="description">
+                    <Link to={`/description/${mv.id}`}>
                         <IconButton aria-label="share">
                         <ShareIcon />
                         </IconButton>

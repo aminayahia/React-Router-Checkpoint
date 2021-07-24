@@ -16,7 +16,7 @@ export const data = [
         longDescription:"Set aside off of the heat to let rest for 10 minutes, and then serve"
     },  
     {   
-        id:2,
+        id:3,
         title: "Avatar",
         date: "July 14, 2018",
         img:"https://fr.web.img6.acsta.net/medias/nmedia/18/78/95/70/19485155.jpg",

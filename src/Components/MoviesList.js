@@ -22,7 +22,7 @@ function MoviesList({mv}) {
           <CameraIcon className={classes.icon} /> Movie layout
             </Typography>
              <Grid container spacing={3}>
-            { mv.map(el => <MoviesCard key={el.id}  title={el.title}  date={el.date}  img={el.img}  shortdescription={el.shortdescription}  longDescription={el.longDescription} />)}                        
+            { mv.map(el => <MoviesCard key={el.id} id={el.id}  title={el.title}  date={el.date}  img={el.img}  shortdescription={el.shortdescription}  longDescription={el.longDescription} />)}                        
           </Grid>
         
         </>
