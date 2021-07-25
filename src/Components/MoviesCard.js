@@ -50,6 +50,7 @@ export const MoviesCard = (mv) => {
             
             <Grid item xs={12} sm={6} md={4}>
              <Card>
+             <Link to={`/description/${mv.id}`}>
                 <CardHeader
                     avatar={
                     <Avatar aria-label="recipe" className={classes.avatar}>
@@ -73,11 +74,11 @@ export const MoviesCard = (mv) => {
                     <IconButton aria-label="add to favorites">
                     <FavoriteIcon />
                     </IconButton>
-                    <Link to={`/description/${mv.id}`}>
+                  
                         <IconButton aria-label="share">
                         <ShareIcon />
                         </IconButton>
-                    </Link>
+                    
                     <IconButton
                     className={clsx(classes.expand, {
                         [classes.expandOpen]: expanded,
@@ -96,6 +97,7 @@ export const MoviesCard = (mv) => {
                     </Typography>
                     </CardContent>
                 </Collapse>
+                </Link>
                 </Card>
                 </Grid>
             
